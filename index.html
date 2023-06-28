@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sims Video Games-Official EA Site</title>
 
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="style.css">
@@ -13,6 +15,15 @@
 
 <body>
   <div class="home">
+
+    <nav class="icon">
+      <div class="btn">
+				<a href="#" id="user"><i class="fa-regular fa-user" style="font-size: 20px;"></i></a>
+				<a href="#" id="help"><i class="fa-solid fa-question" style="font-size: 20px;"></i></a>
+        <img src="logoea.png" style="width: 55px; height: auto;">
+			</div>
+
+    </nav>
 
     <div class="navbar">
       <nav class="logo">
@@ -30,7 +41,7 @@
       </nav>
 
       <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Play for Free*</a>
+        <a class="btn btn-primary"    data-bs-toggle="collapse"   href="#multiCollapseExample1" role="button"     aria-expanded="false" aria-controls="multiCollapseExample1">Play for Free*</a>
         <div class="row">
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -39,9 +50,21 @@
                 </div>
               </div>
             </div>
-        </div>    
+        </div> 
     </div>
-  </div>        
+
+    <section class="hero" id="spark">
+      <main class="content">
+        <h1>SPARK SOMETHING</h1>
+        <h1>WITH THE SIMS</h1>
+        <a href="#service" class="cta">Get Inspired</a>
+      </main>
+    </section>
+  </div>  
+  
+  <script>
+		feather.replace()
+	</script>
 
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>

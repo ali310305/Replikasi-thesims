@@ -97,19 +97,28 @@ nav ul li a:hover {
 
 .btn-group {
 	margin-top: -4rem;
-	margin-left: 1100px;
-	
+	margin-left: 1200px;
+	box-sizing: border-box;
+}
+.dropdown-menu {
+	width: 100px;
 }
 
 .dropdown-item {
 	background-color: blue;
-	margin: 10px;
+	margin: 12px;
 	color: #fff;
 	display: block;
+	width: 11rem;
+	align-items: center;
+	text-align: center;
+	opacity: 8;
 }
 
 .dropdown-item:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
+	background-color: blue;
+	color: #fff;
 }
 
 .hero {

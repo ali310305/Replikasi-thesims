@@ -156,41 +156,20 @@ nav ul li a:hover {
 	color: #fff;
 	font-size: 55px;
 	text-align: center;
-	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	justify-content: center;
 	margin: 0 auto;
 	max-width: 960px;
 	text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
-.hero .content .cta {
-	margin-top: 16px;
+.hero .content p {
+	text-align: center;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 100px;
+	margin: auto;
 	position: absolute;
-	margin-left: 11rem;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	display: inline-block;
-	padding: 12px 40px;
-	font-size: 20px;
-	color: #000;
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 1px 1px 1px rgba(1,1,3,0.5);
-	z-index: 100;
-}
-.hero .content .cta:hover {
-	transform: scale(1.05);
-	transition: .4s;
+	margin-left: -165px;
 }
 
-.runningtext {
-	background-color: #000;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.runningtext h3 {
-	margin-left: 25px;
-	font-size: 22px;
-}

@@ -5,7 +5,8 @@
 	outline: none;
 	border: none;
 	text-decoration: none;
-	font-family: sans-serif;
+	font-family: 'The Sims Sans Bold', sans-serif;
+	
 }
 
 .home {
@@ -84,6 +85,7 @@ nav ul li {
 }
 
 nav ul li a {
+	font-family: sans-serif;
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
@@ -96,15 +98,14 @@ nav ul li a:hover {
 }
 
 .btn-group {
+	font-family: sans-serif;
 	margin-top: -4rem;
-	margin-left: 1200px;
+	margin-left: 1100px;
 	box-sizing: border-box;
-}
-.dropdown-menu {
-	width: 100px;
 }
 
 .dropdown-item {
+	font-family: sans-serif;
 	background-color: blue;
 	margin: 12px;
 	color: #fff;
@@ -156,16 +157,17 @@ nav ul li a:hover {
 	color: #fff;
 	font-size: 55px;
 	text-align: center;
-	
 	margin: 0 auto;
+	margin-top: -10px;
 	max-width: 960px;
 	text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 .hero .content .cta {
+	font-family: sans-serif;
 	margin-top: 16px;
 	position: absolute;
-	margin-left: 11rem;
+	margin-left: 9.5rem;
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
@@ -174,12 +176,12 @@ nav ul li a:hover {
 	font-size: 20px;
 	color: #000;
 	background-color: #fff;
-	border-radius: 10px;
+	border-radius: 3px;
 	box-shadow: 1px 1px 1px rgba(1,1,3,0.5);
 	z-index: 100;
 }
 .hero .content .cta:hover {
-	transform: scale(1.05);
+	transform: scale(1.03);
 	transition: .4s;
 }
 
@@ -187,10 +189,64 @@ nav ul li a:hover {
 	background-color: #000;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 }
 
-.runningtext h3 {
-	margin-left: 25px;
+.runningtext h3 b {
+	margin-left: 30px;
 	font-size: 22px;
+}
+
+.about {
+	min-height: 100vh;
+	background-image: url('bgsims4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.about .body {
+	padding: 200px 200px;
+	max-width: 960px;
+	text-align: center;
+	justify-content: center;
+	position: absolute;
+	margin-top: -9rem;
+	margin-left: 14rem;
+}
+
+.about .body h3 {
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 960px;
+	text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.about .body p {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.about .body .cta {
+	font-family: sans-serif;
+	margin-top: 16px;
+	position: absolute;
+	margin-left: -6rem;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 7px 25px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ffffff00;
+	border: 1.5px solid #fff;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(1,1,3,0.5);
+	z-index: 100;
+}
+.about .body .cta:hover {
+	transform: scale(1.03);
+	transition: .3s;
 }

@@ -36,13 +36,44 @@
 
       <nav class="menu">
         <ul>
-          <li><a href="#games">GAMES</a></li>
+          <li>
+            <a href="#games">GAMES <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+            <li><a href="">The Sims4</a></li>
+            <br>
+            <li><a href="">The Sims Freeplay</a></li>
+            <br>
+            <li><a href="">The Sims Mobile</a></li>
+            </ul></li>
+
           <li><a href="#news">NEWS</a></li>
+
           <li><a href="/sparksomething.html">SPARK SOMETHING</a></li>
-          <li><a href="#help">HELP</a></li>
-          <li><a href="#more">MORE</a></li>
+
+          <li><a href="#help">HELP <i class="fa-solid fa-angle-down"></i></a><ul class="dropdown">
+            <li><a href="">Cheats</a></li>
+            <br>
+            <li><a href="">FAQ</a></li>
+            <br>
+            <li><a href="">Tips & Tricks</a></li>
+            </ul></li></li>
+            
+          <li><a href="#more" id="more" onchange="showSelectedOption()">MORE <i class="fa-solid fa-angle-down"></i></a><ul class="dropdown">
+            <li><a href="">Newsletter</a></li>
+            <br>
+            <li><a href="">EA Play</a></li>
+            <script>
+              function showSelectedOption() {
+                var dropdown = document.getElementById("more");
+                var selectedOption = dropdown.options[dropdown.selectedIndex].value;
+                console.log("Nilai yang dipilih: " + selectedOption);
+              }
+            </script>
+          </li>
         </ul>
       </nav>
+
+      
 
       <div class="btn-group" >
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
@@ -82,7 +113,18 @@
         <a href="https://www.ea.com/games/the-sims/the-sims-4" class="cta">Discover the sims 4</a>
       </div>
 
+      <div class="video">
+        <div itemscope itemtype="http://schema.org/VideoObject">
+          <link itemprop="url" href="https://www.youtube.com/watch?v=xIBBm7tWs_U">
+        
+              <link itemprop="thumbnailUrl" href="https://media.contentapi.ea.com/content/dam/eacom/SIMS/common/ts4-base-game-free-to-play-yt-thumb.jpg.adapt.crop16x9.1920w.jpg">
+        
+          <iframe src="https://www.youtube.com/embed/xIBBm7tWs_U"></iframe>
+        </div>
+      </div>
     </section>
+
+    
 
   </div>
 

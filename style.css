@@ -64,7 +64,7 @@
     margin: 0;
     padding: 0 0 0 0;
     position: fixed;
-    z-index: 10;
+    z-index: 9999;
 }
 
 .navbar .logo img {
@@ -114,10 +114,11 @@ nav ul li a:hover {
 	align-items: center;
 	text-align: center;
 	opacity: 8;
+	transition: .3s;
 }
 
 .dropdown-item:hover {
-	transform: scale(1.05);
+	transform: scale(1.03);
 	background-color: blue;
 	color: #fff;
 }
@@ -129,8 +130,7 @@ nav ul li a:hover {
 	background-image: url('thesims.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	position: relative;
+	background-position:120%;
 	padding: 40px;
 	justify-content: center;
 }
@@ -250,3 +250,4 @@ nav ul li a:hover {
 	transform: scale(1.03);
 	transition: .3s;
 }
+

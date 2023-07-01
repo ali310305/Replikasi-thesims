@@ -21,17 +21,23 @@
     
     <nav class="icon"> 
       <div class="btn">
-        <a href="#" id="user"><i class="fa-regular fa-user" style="font-size: 20px;"></i></a>
+        <a href="#" id="user-button"><i class="fa-regular fa-user" style="font-size: 20px;"></i></a>
         <a href="#" id="help"><i class="fa-solid fa-question" style="font-size: 20px;"></i></a>
         <a href="https://www.ea.com/"> <img src="/logoea.png" alt="logoea" style="width: 55px; height: auto; margin-bottom: 3%;"></a>
       </div>
 
+      <div class="btn-form">
+          <label for="user-box"><i class="fa-solid fa-user" style="font-size: 20px;">
+            <p class="sign">Sign in</p></i></label>
+          <label for="create-box"><i class="fa-solid fa-user-plus" style="font-size: 20px;">
+            <p>Create Account</p></i></label>
+      </div>
     </nav>
 
     <div class="navbar">
 
       <nav class="logo">
-        <img src="logosims2.png" alt="logosims" style="width: 10%; height: auto;">
+        <a href="/index.html"><img src="logosims2.png" alt="logosims" style="width: 10%; height: auto;"> </a>
       </nav>
 
       <nav class="menu">
@@ -46,7 +52,7 @@
             <li><a href="">The Sims Mobile</a></li>
             </ul></li>
 
-          <li><a href="#news">NEWS</a></li>
+          <li><a href="https://www.ea.com/games/the-sims/news">NEWS</a></li>
 
           <li><a href="/sparksomething.html">SPARK SOMETHING</a></li>
 
@@ -131,6 +137,8 @@
   <script>
     feather.replace()
   </script>
+
+  <script src="script.js"></script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

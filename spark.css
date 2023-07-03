@@ -455,6 +455,7 @@ body::before {
 	display: inline;
 	text-align: center;
 	margin-left: 2rem;
+	color: #000;
 }
 
 .footer2 .legal p{
@@ -464,6 +465,7 @@ body::before {
 	text-align: center;
 	margin-left: 2rem;
 	margin-top: 10rem;
+	color: #000;
 }
 
 .footer2 .images{

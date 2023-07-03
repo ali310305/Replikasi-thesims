@@ -740,3 +740,107 @@ nav ul li:hover .dropdown:hover {
 	transform: scale(1.03);
 	transition: .3s;
 }
+
+.footer{
+	background-color: #aaa;
+	min-height: 45vh;
+	position: relative;
+	padding: 40px;
+	margin-top: -5rem;
+}
+
+.footer p{
+	margin-top: -1rem;
+	font-family: sans-serif;
+}
+
+.footer a{
+	justify-content: space-between;
+	position: relative;
+	font-family: sans-serif;
+	text-align: left;
+	margin-left: 2rem;
+}
+
+.footer .content .btn{
+	position: relative;
+	float: right;
+	justify-content: space-evenly;
+	margin-top: -3rem;
+	margin-right: 3rem;
+}
+
+.footer i{
+	position: relative;
+	margin-left: 2rem;
+}
+
+.footer .image{
+	justify-content: left;
+	align-content: center;
+	margin-left: 1rem;
+	position: relative;
+}
+
+.footer .imge{
+ float: right;
+ margin-top: -6.5rem;
+}
+
+.footer2 {
+	background-color: #fff;
+	padding-top: 1.5rem;
+	padding-bottom: 10rem;
+}
+
+.footer2 .isi {
+	margin-left: 10rem;
+}
+
+.footer2 .isi img {
+	margin-left: -6rem;
+}
+.footer2 .isi p{
+	font-family: sans-serif;
+	justify-content: space-between;
+	position: relative;
+	display: inline;
+	text-align: center;
+	margin-left: 2rem;
+	color: #000;
+}
+
+.footer2 .legal p{
+	font-family: sans-serif;
+	justify-content: center;
+	position: relative;
+	display: inline;
+	text-align: center;
+	margin-left: 0rem;
+	margin-top: 10rem;
+	color: #000;
+}
+
+.footer2 .cr {
+	margin-left: -2rem;
+}
+.footer2 .images{
+	float: right;
+
+}
+
+.footer2 select {
+	font-family: sans-serif;
+	float: right;
+	position: absolute;
+	padding: 20px 5px;
+	margin-top: -10%;
+	margin-left: 70%;
+	width: 20%;
+	border: 2 px solid #aaa;
+	background-color: transparent;
+}
+
+.footer2 select option {
+	font-family: sans-serif;
+}
